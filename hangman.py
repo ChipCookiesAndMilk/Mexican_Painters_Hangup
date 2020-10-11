@@ -115,7 +115,7 @@ while start != 0:
         print('\n\n-----------------------------\nFind the artist...\n')
         display_word()
     if start == 2:
-        # in order to enter the first time to the condition
+        # in order to enter for the first time to the condition
         level_start = 0
         # display the level_menu until the input is in the level range
         while level_start not in levels_dictionary:
