@@ -75,6 +75,7 @@ def display_word():
     # if chances to be mistaken are over or player won
     if opportunities_missing == 0:
         print('\n\n\tYou lose ):')
+        print('The last name was: '+str(painter_list))
     elif completed == 0 and opportunities_missing > 0:
         print('\n\n\tYou win!')
 
